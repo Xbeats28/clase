@@ -12,20 +12,25 @@ namespace varios_if
         static void Main(string[] args)
         {
             //program que claifique un numero como negaivo cero  o posiivo
-            double a;
+            int a;
             Console.WriteLine("numero");
-            a = double.Parse(Console.ReadLine());
-            if (a % 3 == 0)
+            a = int.Parse(Console.ReadLine());
+            if (a % 3 ==0 && a % 5==0)
             {
-                Console.WriteLine(" es divisible entre 3");
+                Console.WriteLine(" es divisible entre ambod");
             }
-            else if (a % 5 == 0)
-            { Console.WriteLine("  es por 5 "); }
+            else if( a % 3 ==0)
+            {
+                Console.WriteLine("es multiplo de 3");
 
-
-            else
-            { Console.WriteLine("no es por nada"); }
+            }
+            else if(a %5 == 0)
+            {
+                Console.WriteLine("es multiplo de 5");
+            }
             Console.ReadLine();
+
+
 
 
 
