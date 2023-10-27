@@ -104,17 +104,6 @@ namespace ejercicios_18_del_10
             Console.ReadLine();
 
 
-                    
-                
-                
-                
-                
-                
-                
-                }
-
-            }
-                
 
 
 
@@ -122,12 +111,9 @@ namespace ejercicios_18_del_10
 
 
 
+        }
 
-
-
-            }
-               
-                
+    }
 
 
 
@@ -139,11 +125,8 @@ namespace ejercicios_18_del_10
 
 
 
+}
 
 
-            
-        
-            
-        
-    
+
 
