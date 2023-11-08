@@ -451,36 +451,12 @@ namespace boletin4
                     else if (so > cr && so < ni && ni > so) { Console.WriteLine(ni + "" + so + "" + cr); }
                     else if (so > cr && so > ni && cr > ni) { Console.WriteLine(so + "" + cr + "" + ni); }
                     else if (cr > so && cr > ni && ni > so) { Console.WriteLine(cr + "" + ni + "" + so); }
-                    else if (cr > so && cr > ni && so > ni) { Console.WriteLine(cr + "" + so + "" + ni); }
+                    else if (cr > so && cr > ni && so > ni) { Console.WriteLine(cr + "" + so + "" +9 ni); }
                     else Console.WriteLine("Por favor numeros diferentes");
                 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        Console.WriteLine("desea continuar? Pulse S para continuar o N para cerrar");
+                Console.WriteLine("desea continuar? Pulse S para continuar o N para cerrar");
                 continuar = char.Parse(Console.ReadLine());
 
 
@@ -690,7 +666,20 @@ namespace boletin4
 
 
 
-                Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Console.ReadLine();
 
 
 
