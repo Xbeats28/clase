@@ -23,13 +23,13 @@ namespace parte_2_boletion_9_11
                     double num = Convert.ToDouble(Console.ReadLine());
                     double o = 0;
                     double suma = 0;
-                    for (; o < num;o++)
+                    for (; o < num; o++)
                     {
                         if (num % o == 0)
                         {
-                           
+
                             suma = suma + o;
-                            
+
                         }
 
                     }
@@ -46,29 +46,29 @@ namespace parte_2_boletion_9_11
                     double numm;
                     numm = Convert.ToDouble(Console.ReadLine());
                     double sumaalmacenada = 0;
-                    for (double suma = 0; suma <= numm*5; suma++)
+                    for (double suma = 0; suma <= numm * 5; suma++)
                     {
-                        if (suma % 5 ==0)
+                        if (suma % 5 == 0)
                         {
-                            
+
                             sumaalmacenada = suma + sumaalmacenada;
-                            
-                               
+
+
                         }
-                       
+
 
                     }
                     Console.WriteLine(sumaalmacenada);
 
 
                 }
-                else if (ejer==15)
+                else if (ejer == 15)
                 {
                     Console.WriteLine("Escriba un numero");
                     double numn = 0;
-                        numn = Convert.ToDouble(Console.ReadLine());
+                    numn = Convert.ToDouble(Console.ReadLine());
                     double multiplicacion = 1;
-                    for (; numn > 1; numn --)
+                    for (; numn > 1; numn--)
                     {
                         multiplicacion = multiplicacion * numn;
 
@@ -87,11 +87,12 @@ namespace parte_2_boletion_9_11
                     num = 0;
                     num = Convert.ToDouble(Console.ReadLine());
                     double ikenna = 0;
-                    for (; num > 1; num --)
+                    for (; num > 1; num--)
                     {
-if (num % 3 == 0) {
+                        if (num % 3 == 0)
+                        {
                             ikenna++;
-                           
+
 
 
                         }
@@ -105,16 +106,17 @@ if (num % 3 == 0) {
                 {
                     Console.WriteLine("Introduzca un numero");
                     double num = 0;
-                    double contador= 0;
-                    num= Convert.ToDouble(Console.ReadLine());
+                    double contador = 0;
+                    num = Convert.ToDouble(Console.ReadLine());
                     double suma = 0;
-                    for (; suma <= num; suma++) {
-                    if (num % suma == 0)
+                    for (; suma <= num; suma++)
+                    {
+                        if (num % suma == 0)
                         {
                             contador++;
                         }
-                        
-                    
+
+
                     }
                     Console.WriteLine(contador);
 
@@ -122,40 +124,141 @@ if (num % 3 == 0) {
 
 
                 }
-                else if ( ejer == 18)
+                else if (ejer == 18)
                 {
                     double num = 0;
-                   
-                        Console.WriteLine("Introduzca un numero");
-                    
+
+                    Console.WriteLine("Introduzca un numero");
+
                     num = Convert.ToDouble(Console.ReadLine());
-                  double  num2 = num;
-                    
-                    
-                        for ( double resta= 0; num >resta;num2--)
+                    double num2 = num;
+
+
+                    for (double resta = 0; num > resta; num2--)
+                    {
+                        if (num % num2 == 0)
                         {
-                            if (num % num2 ==0){
-                                Console.WriteLine("No es primo");
+                            Console.WriteLine("No es primo");
 
                             break;
-                            }
+                        }
 
-                    } 
+                    }
                     {
                         Console.WriteLine("Si es primo");
                     }
 
 
 
-                  
+
+
 
 
                 }
+                else if (ejer == 19)
+                {
+                    Console.WriteLine("Introduzca un numero");
+                    double n = 0;
+                    double m = 0;
+                    double idk = 0;
+                    n = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Introduzca un numero");
+                    m = Convert.ToDouble(Console.ReadLine());
+                    if (n < m)
+                    {
+                        for (; n < m; n++)
+                        {
+                            idk = n + idk;
 
+
+                        }
+                        if (idk % 3 == 0 && idk % 5 == 0 && idk % 7 == 0)
+                        {
+                            Console.WriteLine(idk);
+                        }
+                        else if (idk % 5 == 0 && idk % 7 == 0)
+                        {
+                            Console.WriteLine(idk);
+                        }
+
+                        else if (idk % 3 == 0 && idk % 7 == 0)
+                        {
+                            Console.WriteLine(idk);
+                        }
+                        else if (idk % 5 == 0 && idk % 3 == 0)
+                        {
+                            Console.WriteLine(idk);
+                        }
+                        else if (idk % 5 == 0 && idk % 7 == 0)
+                        {
+                            Console.WriteLine(idk);
+                        }
+                        else if (idk % 5 == 0)
+                        {
+                            Console.WriteLine(idk);
+                        }
+                        else if (idk % 3 == 0)
+                        {
+                            Console.WriteLine(idk);
+                        }
+                        else if (idk % 7 == 0)
+                        {
+                            Console.WriteLine(idk);
+
+
+
+                        }
+                        if (n > m)
+                        {
+                            for (; n > m; n++)
+                            {
+                                idk = n + idk;
+
+
+                            }
+                            if (idk % 3 == 0 && idk % 5 == 0 && idk % 7 == 0)
+                            {
+                                Console.WriteLine(idk);
+                            }
+                            else if (idk % 5 == 0 && idk % 7 == 0)
+                            {
+                                Console.WriteLine(idk);
+                            }
+
+                            else if (idk % 3 == 0 && idk % 7 == 0)
+                            {
+                                Console.WriteLine(idk);
+                            }
+                            else if (idk % 5 == 0 && idk % 3 == 0)
+                            {
+                                Console.WriteLine(idk);
+                            }
+                            else if (idk % 5 == 0 && idk % 7 == 0)
+                            {
+                                Console.WriteLine(idk);
+                            }
+                            else if (idk % 5 == 0)
+                            {
+                                Console.WriteLine(idk);
+                            }
+                            else if (idk % 3 == 0)
+                            {
+                                Console.WriteLine(idk);
+                            }
+                            else if (idk % 7 == 0)
+                            {
+                                Console.WriteLine(idk);
+
+
+
+                            }
+                        }
+                    }
+                }
 
 
                 Console.WriteLine("Desea continuar? pulse s para seguir o n para parar");
-                si = Convert.ToChar(Console.ReadLine());        
+                si = Convert.ToChar(Console.ReadLine());
             } while (si == 's');
         }
     }
