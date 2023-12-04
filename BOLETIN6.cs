@@ -129,17 +129,39 @@ namespace array
 
 
                 }
-                if(ejer==8)
+                if (ejer == 8)
                 {
-                    int[]a8 = new int[100];
-                    for(int i = 0; i<a8.Length;i++)
+
+                    int[] carl = new int[100];
+                    Random random = new Random();
+                    for (int i = 0; i < 100; i++)
                     {
+                        int random1 = random.Next(0, 10);
+                        carl[i] = random1;
 
-                        a8[i] =                         
+                        
+                        Console.WriteLine(carl[i]);
                     }
-
-
                 }
+                if (ejer == 9)
+                {
+                    int[] mvariable = new int[100];
+
+
+                    for (int i = 0; i < 100; i++)
+                    {
+                        if (i % 2 == 0)
+                        {
+                            for (int j = 0; j < 100; j++)
+                                mvariable[j] = i;
+
+                        }
+
+                        Console.WriteLine(mvariable + "");
+                    }
+                }
+
+
                 Console.ReadLine();
                                                     
                                         
