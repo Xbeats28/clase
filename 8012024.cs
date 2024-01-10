@@ -243,11 +243,113 @@ namespace _31_36
                 }
                 else if(ejer==38)
                 {
-                    
+                    string nombre1, apellidos1;
+                    string[] nombre = new string[100];
+                    string[] apellidos = new string[100];
+                    Console.WriteLine("introduza su nombre");
+                    nombre1 = Console.ReadLine();
+                    Console.WriteLine("escriba sus apellidos");
+                    apellidos1 = Console.ReadLine();
+                    nombre[1] = "carlos";
+                    apellidos[1] = "peru";
+                    nombre[2] = "carla";
+                    apellidos[2] = "araujo";
+                    int contado= 0; 
+                    for(int i = 0; i< nombre.Length;i++)
+                    {
+                        if (nombre[i]==null)
+                        {
+                            nombre[i] = nombre1;
+                            apellidos[i] = apellidos1;
+                            break;
+                                }
+                        
+                       
+                    }
+                    int contador2 = 0;
+                    for(int i = 0;i< nombre.Length;i++)
+                    {
+                        if (nombre[i] == null) { contado++; }
+                        else if (nombre[i]!=null)
+                        { contador2++; }
+                        
+
+                    }
+                    Console.WriteLine("Espacio vacios=" + contado);
+                    Console.WriteLine("Espacios no vacios=" + contador2);
+
+
+
+                    Console.WriteLine("Que nombre desea buscar? sin apellidos");
+                    string buscador1, buscador2;
+                    buscador1=Console.ReadLine();
+                   Console.WriteLine("Que apellidos tiene"+ ""+buscador1+"?");
+        
+                    buscador2 = Console.ReadLine();
+                 
+                    for(int i = 0  ; i< nombre.Length ;i++)
+                    {
+                        if (nombre[i] == buscador1 && apellidos[i] == buscador2)
+                        {
+                            Console.WriteLine(nombre[i] + "" + apellidos[i]);
+                            break;
+                        }
+
+                    }
+
+                    Console.WriteLine("que nombre quiere eliminar? sin apellidos");
+                    string eliminar, eliminar1;
+                    eliminar = Console.ReadLine();
+                    Console.WriteLine("que apellidos tiene"+eliminar+"?");
+                    eliminar1 = Console.ReadLine();
+                    for(int i = 0; i< nombre.Length ;i++)
+                    {
+                        if (nombre[i] == eliminar && apellidos[i]==eliminar1)
+                        {
+                            nombre[i] = null;
+
+
+                               apellidos[i] = null;
+                            break;
+                        }
+
+                    }
+                    Console.WriteLine("la nueva lista es");
+                    for(int i = 0; i<nombre.Length ;i++)
+                    {
+                       Console.WriteLine( nombre[i]);
+
+                    }
+                    for (int i = -1; i < nombre.Length; i++)
+                    {
+                        int contador = 0;
+                        if (nombre[i] == null)
+                        {
+
+                            nombre[contador] = nombre[i];
+                            contador++;
+                        }
+                    }
+                    Console.WriteLine("la nueva lista es");
+                    for (int i = 0; i < nombre.Length; i++)
+                    {
+                        Console.WriteLine(nombre[i]);
+
+                    }
+
+
+
+
+
+
+
+
+
+
                 }
 
 
-                    Console.ReadLine();
+                Console.ReadLine();
 
                 Console.WriteLine("pulse 's' para continuar");
                 cont = char.Parse(Console.ReadLine());
