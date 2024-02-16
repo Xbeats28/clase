@@ -174,6 +174,20 @@ namespace boltring
 
 
                 }
+                if(ejercicio==5)
+                {
+                    string frase;
+                    Boolean a = false;
+                    Console.WriteLine("Escriba una frase");
+                    frase = Console.ReadLine();
+                    if (frase.Contains('@'))
+                    {
+                        a = true;
+                        Console.WriteLine("true");
+                    }
+                    else { Console.WriteLine("false"); }
+
+                }
 
 
 
@@ -185,6 +199,9 @@ namespace boltring
             } while(si == 's');
             
             
+
+
+
 
 
 
