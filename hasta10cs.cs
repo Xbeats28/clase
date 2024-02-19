@@ -302,36 +302,60 @@ namespace boltring
                     string[] b = new string[100];
                     Console.WriteLine("Escribeme algo");
                     a = Console.ReadLine();
-                    b = a.Split(' ');
-                    for (int i = 0; i < b.Length - 1; i++)
-                    {
-                        Console.Write(b[i] + "*");
-
-                    }
-                    Console.Write(b[b.Length - 1]);
+                    a = a.Replace(' ', '*');
+                    Console.WriteLine(a);
 
                 }
                 if (ejercicio == 10)
                 {
 
                     int[] sal = new int[2];
-                    string[] fuck = new string[2];
-                    fuck[0] = "Pedro Jimenez * 14Julio1990 ? 2500";
-                    fuck[1] = "Maria Benitez*9070!06Agosto1998";
-                    Console.WriteLine("Cual es el salario de " + fuck[0]);
+                    string[] ikecostas = new string[2];
+                    ikecostas[0] = "Pedro Jimenez * 14Julio1990 ? 2500";
+                    ikecostas[1] = "Maria Benitez*9070!06Agosto1998";
+                    Console.WriteLine("Cual es el salario de " + ikecostas[0]);
                     sal[0] = int.Parse(Console.ReadLine());
                     if (sal[0] < 1000)
                     {
                         Console.WriteLine("el salario esta mal");
                     }
                     else { Console.WriteLine("El salario es mayor que mil"); }
-                    Console.WriteLine("cual es el salario de " + fuck[1]);
+                    Console.WriteLine("cual es el salario de " + ikecostas[1]);
                     sal[1] = int.Parse(Console.ReadLine());
                     if (sal[1] < 1000)
                     {
                         Console.WriteLine("el salario esta mal");
                     }
                     else { Console.WriteLine("El salario es mayor que mil"); }
+                }
+                if(ejercicio==11)
+                {
+                    Boolean comprobador = false;
+                    int comrpobador2 = 0;
+                    string palabra;
+                    Console.WriteLine("Escribe un palabra");
+                    palabra = Console.ReadLine();
+                    char[]letras=new char[palabra.Length];
+
+                    for(int i = 0;  i < palabra.Length; i++)
+                    {
+                        letras[i] = palabra[i];
+
+                       
+                    }
+                    for(;comrpobador2<=11;comrpobador2++)
+                    {
+                        Console.WriteLine("Pulsa 1 para decir una letra, pulsa 2 para decir la palabra");
+
+
+
+
+
+                    }
+
+
+
+
                 }
 
 
