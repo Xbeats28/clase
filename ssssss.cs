@@ -175,12 +175,10 @@ namespace ConsoleApp10
             if (ejercicio == 3)
             {
                 char cont = ' ';
-                HashSet<string> dni = new HashSet<string>();
-
                 do
                 {
                     int op = 0;
-                  
+                    HashSet<string> dni = new HashSet<string>();
                     Console.WriteLine("1 introducir dni");
                     Console.WriteLine("2 eliminar dni");
                     Console.WriteLine("mostrar dni");
@@ -309,70 +307,8 @@ namespace ConsoleApp10
                     if (op == 6) { cont = 's'; }
                 } while (cont != null);
             }
-            if (ejercicio == 5)
+            if(ejercicio==5)
             {
-                char cont = ' ';
-                Dictionary<int, string> usuarios = new Dictionary<int, string>();
-                do 
-                {
-                    int op = 0;
-                    Console.WriteLine(" 1 guardar cliente");
-                    Console.WriteLine(" 2 mostrar clientes ");
-                    Console.WriteLine("3 Buscar cliente a partir de la clave");
-                    Console.WriteLine("4 Eliminar cliente a partir de la clave");
-                    op = int.Parse(Console.ReadLine());
-                    if(op==1)
-                    {
-                        int clave = 0; string nombre, edad, correo;
-                        Console.WriteLine("ingrese clave");
-                        clave = int.Parse(Console.ReadLine());
-                        Console.WriteLine("ingrese nombre");
-                        nombre = Console.ReadLine();
-                        Console.WriteLine("ingrese edad");
-                        edad= Console.ReadLine();
-                        Console.WriteLine("ingrese correo");
-                        correo = Console.ReadLine();
-                        
-                        usuarios.Add(clave, nombre+edad+correo);
-
-                    }
-
-                    if (op == 2)
-                    {
-                        foreach (KeyValuePair<int, String> s in usuarios)
-                        {
-                            Console.WriteLine(s.Key + " " + s.Value);
-                        }
-
-                    }
-                    
-                    if(op==3)
-                    {
-                        int llavebuscada;
-                        Console.WriteLine("esriba la llave del usuario");
-                        llavebuscada = int.Parse(Console.ReadLine());
-                        Console.WriteLine(usuarios[llavebuscada]);
-                        //dos maneras de buscarlo la facil y la rebuscada
-                        foreach(int key in usuarios.Keys)
-                        {
-                            if (llavebuscada == key) { Console.WriteLine("el usuario es" + usuarios[key]); }
-                        }
-
-
-
-                    }
-                    if (op == 4)
-                    {
-                        String nombrebuscado;
-                        Console.WriteLine("Que clave quieres buscar a partir del nombre");
-                        nombrebuscado = Console.ReadLine();
-                        foreach (KeyValuePair<int, string> s in usuarios)
-                        {
-                            if (s.Value == nombrebuscado) { Console.WriteLine(s.Key); }
-                        }
-                    }
-
-                } while(cont ==' ');
 
 
 
