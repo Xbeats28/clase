@@ -1,0 +1,16 @@
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.exe.config
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.exe
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.pdb
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.ejer1.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.Form1.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.Properties.Resources.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.GenerateResource.cache
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.exe
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.pdb
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.ejer2.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.ejer.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.ejer5.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.ejer6.resources
