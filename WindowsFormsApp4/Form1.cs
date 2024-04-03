@@ -47,5 +47,11 @@ namespace WindowsFormsApp4
 
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ejer7 s = new ejer7();
+            s.ShowDialog();
+        }
     }
 }
