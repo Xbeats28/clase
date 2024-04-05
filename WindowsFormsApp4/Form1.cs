@@ -53,5 +53,21 @@ namespace WindowsFormsApp4
             ejer7 s = new ejer7();
             s.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ejer3 s = new ejer3();
+            s.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ejer4 s = new ejer4();
+            s.ShowDialog();
+
+
+
+
+        }
     }
 }

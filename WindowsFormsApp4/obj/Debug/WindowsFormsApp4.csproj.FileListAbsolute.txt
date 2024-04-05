@@ -15,3 +15,5 @@ C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\Win
 C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.ejer5.resources
 C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.ejer6.resources
 C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.ejer7.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.ejer3.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.ejer4.resources
