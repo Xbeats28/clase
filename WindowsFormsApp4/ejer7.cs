@@ -25,8 +25,8 @@ namespace WindowsFormsApp4
             //
             doll=eur*0.93;
             txtdollares.Text =Convert.ToString(eur);
-
-
+            String location = @"C:\Users\Alumno\Downloads\image.jpg";
+            this.pictureBox1.Image = Properties.Resources.unnamed;
         }
 
         private void btnconvertirdollar_Click(object sender, EventArgs e)
@@ -37,6 +37,11 @@ namespace WindowsFormsApp4
             //
             eur=doll/0.93;
             txteuros.Text = Convert.ToString(eur);
+        }
+
+        private void salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

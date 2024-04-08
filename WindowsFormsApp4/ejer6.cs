@@ -36,5 +36,10 @@ namespace WindowsFormsApp4
             celsi.Text = Convert.ToString(cel);
 
         }
+
+        private void salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

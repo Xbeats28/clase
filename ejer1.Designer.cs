@@ -33,6 +33,7 @@
             this.txtnombre = new System.Windows.Forms.TextBox();
             this.txtcorreo = new System.Windows.Forms.TextBox();
             this.btnpulsar = new System.Windows.Forms.Button();
+            this.salir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -81,12 +82,23 @@
             this.btnpulsar.Text = "Pulsame";
             this.btnpulsar.UseVisualStyleBackColor = true;
             // 
+            // salir
+            // 
+            this.salir.Location = new System.Drawing.Point(510, 280);
+            this.salir.Name = "salir";
+            this.salir.Size = new System.Drawing.Size(75, 23);
+            this.salir.TabIndex = 5;
+            this.salir.Text = "salir";
+            this.salir.UseVisualStyleBackColor = true;
+            this.salir.Click += new System.EventHandler(this.salir_Click);
+            // 
             // ejer1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.salir);
             this.Controls.Add(this.btnpulsar);
             this.Controls.Add(this.txtcorreo);
             this.Controls.Add(this.txtnombre);
@@ -106,5 +118,6 @@
         private System.Windows.Forms.TextBox txtnombre;
         private System.Windows.Forms.TextBox txtcorreo;
         private System.Windows.Forms.Button btnpulsar;
+        private System.Windows.Forms.Button salir;
     }
 }

@@ -35,6 +35,7 @@
             this.txtmins = new System.Windows.Forms.TextBox();
             this.Horas = new System.Windows.Forms.Label();
             this.txtsec = new System.Windows.Forms.TextBox();
+            this.salir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnconvertir
@@ -96,11 +97,22 @@
             this.txtsec.Size = new System.Drawing.Size(100, 20);
             this.txtsec.TabIndex = 6;
             // 
+            // salir
+            // 
+            this.salir.Location = new System.Drawing.Point(411, 228);
+            this.salir.Name = "salir";
+            this.salir.Size = new System.Drawing.Size(75, 23);
+            this.salir.TabIndex = 7;
+            this.salir.Text = "salir";
+            this.salir.UseVisualStyleBackColor = true;
+            this.salir.Click += new System.EventHandler(this.salir_Click);
+            // 
             // ejer4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.salir);
             this.Controls.Add(this.txtsec);
             this.Controls.Add(this.Horas);
             this.Controls.Add(this.txtmins);
@@ -124,5 +136,6 @@
         private System.Windows.Forms.TextBox txtmins;
         private System.Windows.Forms.Label Horas;
         private System.Windows.Forms.TextBox txtsec;
+        private System.Windows.Forms.Button salir;
     }
 }

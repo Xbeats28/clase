@@ -19,8 +19,8 @@ namespace WindowsFormsApp4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ejer ejer1 = new ejer();
-            ejer1.ShowDialog();
+            ejer1 s = new ejer1();
+           s.ShowDialog();
 
 
 
@@ -68,6 +68,12 @@ namespace WindowsFormsApp4
 
 
 
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            ejer8 s = new ejer8();
+            s.ShowDialog();
         }
     }
 }

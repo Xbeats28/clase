@@ -37,6 +37,7 @@
             this.labelsigno = new System.Windows.Forms.Label();
             this.igual = new System.Windows.Forms.Label();
             this.resultado = new System.Windows.Forms.TextBox();
+            this.salir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // dato1
@@ -117,11 +118,22 @@
             this.resultado.Size = new System.Drawing.Size(37, 20);
             this.resultado.TabIndex = 8;
             // 
+            // salir
+            // 
+            this.salir.Location = new System.Drawing.Point(427, 267);
+            this.salir.Name = "salir";
+            this.salir.Size = new System.Drawing.Size(75, 23);
+            this.salir.TabIndex = 9;
+            this.salir.Text = "salir";
+            this.salir.UseVisualStyleBackColor = true;
+            this.salir.Click += new System.EventHandler(this.salir_Click);
+            // 
             // ejer5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.salir);
             this.Controls.Add(this.resultado);
             this.Controls.Add(this.igual);
             this.Controls.Add(this.labelsigno);
@@ -150,5 +162,6 @@
         private System.Windows.Forms.Label labelsigno;
         private System.Windows.Forms.Label igual;
         private System.Windows.Forms.TextBox resultado;
+        private System.Windows.Forms.Button salir;
     }
 }

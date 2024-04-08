@@ -71,5 +71,10 @@ namespace WindowsFormsApp4
 
             resultado.Text = Convert.ToString(dvs);
         }
+
+        private void salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

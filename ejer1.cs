@@ -21,5 +21,10 @@ namespace WindowsFormsApp4
         {
 
         }
+
+        private void salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

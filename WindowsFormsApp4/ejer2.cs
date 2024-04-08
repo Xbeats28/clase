@@ -67,8 +67,7 @@ namespace WindowsFormsApp4
 
         private void btnsalir_Click(object sender, EventArgs e)
         {
-            ejer2 ejer2= new ejer2();
-            ejer2.Close();
+            this.Close();
 
 
         }

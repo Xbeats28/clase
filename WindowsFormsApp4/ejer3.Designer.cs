@@ -45,6 +45,7 @@
             this.labelresultadocuad = new System.Windows.Forms.Label();
             this.labelresultadorec = new System.Windows.Forms.Label();
             this.labelresultadotri = new System.Windows.Forms.Label();
+            this.salir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btncuadrado
@@ -195,11 +196,22 @@
             this.labelresultadotri.TabIndex = 16;
             this.labelresultadotri.Click += new System.EventHandler(this.labelresultadotri_Click);
             // 
+            // salir
+            // 
+            this.salir.Location = new System.Drawing.Point(595, 206);
+            this.salir.Name = "salir";
+            this.salir.Size = new System.Drawing.Size(75, 23);
+            this.salir.TabIndex = 17;
+            this.salir.Text = "salir";
+            this.salir.UseVisualStyleBackColor = true;
+            this.salir.Click += new System.EventHandler(this.salir_Click);
+            // 
             // ejer3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.salir);
             this.Controls.Add(this.labelresultadotri);
             this.Controls.Add(this.labelresultadorec);
             this.Controls.Add(this.labelresultadocuad);
@@ -244,5 +256,6 @@
         private System.Windows.Forms.Label labelresultadocuad;
         private System.Windows.Forms.Label labelresultadorec;
         private System.Windows.Forms.Label labelresultadotri;
+        private System.Windows.Forms.Button salir;
     }
 }

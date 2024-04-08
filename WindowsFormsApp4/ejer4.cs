@@ -34,5 +34,10 @@ namespace WindowsFormsApp4
             txtsec.Text = r2;
             txtmins.Text = r1;  
         }
+
+        private void salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
