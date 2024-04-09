@@ -171,21 +171,23 @@
             // 
             // btnc
             // 
-            this.btnc.Location = new System.Drawing.Point(335, 184);
+            this.btnc.Location = new System.Drawing.Point(416, 184);
             this.btnc.Name = "btnc";
             this.btnc.Size = new System.Drawing.Size(75, 23);
             this.btnc.TabIndex = 11;
             this.btnc.Text = "C";
             this.btnc.UseVisualStyleBackColor = true;
+            this.btnc.Click += new System.EventHandler(this.btnc_Click);
             // 
             // btnce
             // 
-            this.btnce.Location = new System.Drawing.Point(416, 184);
+            this.btnce.Location = new System.Drawing.Point(335, 184);
             this.btnce.Name = "btnce";
             this.btnce.Size = new System.Drawing.Size(75, 23);
             this.btnce.TabIndex = 12;
             this.btnce.Text = "CE";
             this.btnce.UseVisualStyleBackColor = true;
+            this.btnce.Click += new System.EventHandler(this.btnce_Click);
             // 
             // btndiv
             // 

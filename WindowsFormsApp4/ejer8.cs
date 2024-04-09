@@ -15,7 +15,7 @@ namespace WindowsFormsApp4
         public ejer8()
         {
             InitializeComponent();
-
+            
         }
        
 
@@ -115,33 +115,83 @@ namespace WindowsFormsApp4
         //RESULTADO
         
         private void btnigual_Click(object sender, EventArgs e)
-        {
+        {//variables
             double resultado = 0;
             int contador = 0;
             string texto = textBox1.Text;
             string[] trozos = new string[10];
+            //
+
+            //corto el string del texto donde haya signos para separar cada cifra
             trozos=texto.Split('+','-','/','*','%');
+            //transformo las cifras en double
             double[] cachos = new double[10];
             for(int i = 0; i<trozos.Length;i++ )
-            {
+            {// mientras que el trozo tenga algo se realiza el cambio
                 if (trozos[i]!=null)
                 {
                     cachos[i] =  Convert.ToDouble(trozos[i]);
-                    contador++;
+                    
                 }
 
             }
+            //operaciones
+            if(texto.Contains("+"))
+            {
 
-            resultado = cachos[0] + cachos[1];
-           lblresult.Text= resultado.ToString();    
+                resultado = cachos[0] + cachos[1];
+
+            }
+            else if (texto.Contains("-"))
+            {
+
+                resultado = cachos[0] - cachos[1];
+
+            }
+            else if (texto.Contains("*"))
+            {
+
+                resultado = cachos[0] * cachos[1];
+
+            }
+            else if (texto.Contains("/"))
+            {
+
+                resultado = cachos[0] / cachos[1];
+
+            }
 
 
-
-
-
-
+            lblresult.Text= resultado.ToString();    
+            //esto le añade un signo de igual a la texbox
             textBox1.Text += btnigual.Text;
         }
-        
+
+
+
+        //botones de limpieza
+
+
+        private void btnc_Click(object sender, EventArgs e)
+        {
+            //texto2 es un substring de texto 1 o que hace es coge todos los caracteres menos el ultimo
+            string texto1 = textBox1.Text;
+            string texto2= texto1.Substring(0, texto1.Length - 1);//al colocar el 0 le estamos diciendo
+          //que qeuremos empezar a seccionar desde el 1º caracter si le pusieramos 1 desde el 2º
+            textBox1.Text = texto2;
+            
+        }
+
+        private void btnce_Click(object sender, EventArgs e)
+        {
+            //pone el texto el label y texbox en nada
+            lblresult.Text = "";
+            textBox1.Text = "";
+        }
+
+
+
+
+
     }
 }
