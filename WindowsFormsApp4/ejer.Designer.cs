@@ -88,6 +88,7 @@
             this.btnpulsar.TabIndex = 5;
             this.btnpulsar.Text = "Pulsame";
             this.btnpulsar.UseVisualStyleBackColor = true;
+            this.btnpulsar.Click += new System.EventHandler(this.btnpulsar_Click);
             // 
             // ejer
             // 

@@ -15,10 +15,14 @@ namespace WindowsFormsApp4
         public ejer8()
         {
             InitializeComponent();
+           
             
         }
-       
+        //declaro la memoria aqui para que sea punlica para todos los void(para que la puedan utilizar)
+        double memoria = 0;
 
+
+        //botones de signos que quieren decir que le pondran al texto a mayor lo que contenga el texto del boton
         private void btn2_Click(object sender, EventArgs e)
         {
            
@@ -76,16 +80,7 @@ namespace WindowsFormsApp4
         {
             textBox1.Text += btnpunto.Text;
         }
-
-
-
-
-        //**********************************************************
-
-
-
-
-
+       
         private void btnsumar_Click(object sender, EventArgs e)
         {
             textBox1.Text += btnsumar.Text;
@@ -107,12 +102,16 @@ namespace WindowsFormsApp4
 
         private void btnporcent_Click(object sender, EventArgs e)
         {
+           
+
+
+
             textBox1.Text += btnporcent.Text;
         }
 
 
 
-        //RESULTADO
+        //RESULTADO-OPERACIONES
         
         private void btnigual_Click(object sender, EventArgs e)
         {//variables
@@ -160,15 +159,25 @@ namespace WindowsFormsApp4
                 resultado = cachos[0] / cachos[1];
 
             }
+            else if(texto.Contains('%'))
+            {
+                resultado=(cachos[0]  * cachos[1] / 100) - cachos[1];
+                
+            }
 
-
-            lblresult.Text= resultado.ToString();    
+            
+            lblresult.Text= "="+resultado.ToString();    
             //esto le añade un signo de igual a la texbox
-            textBox1.Text += btnigual.Text;
+           
+           
         }
 
 
 
+      
+        
+        
+        
         //botones de limpieza
 
 
@@ -177,21 +186,88 @@ namespace WindowsFormsApp4
             //texto2 es un substring de texto 1 o que hace es coge todos los caracteres menos el ultimo
             string texto1 = textBox1.Text;
             string texto2= texto1.Substring(0, texto1.Length - 1);//al colocar el 0 le estamos diciendo
-          //que qeuremos empezar a seccionar desde el 1º caracter si le pusieramos 1 desde el 2º
+          //que qeuremos empezar a seccionar el string principal desde el 1º caracter(posicion) si le pusieramos 1 desde el 2º
             textBox1.Text = texto2;
             
         }
 
+   
+        
         private void btnce_Click(object sender, EventArgs e)
         {
             //pone el texto el label y texbox en nada
             lblresult.Text = "";
             textBox1.Text = "";
         }
+       
+        
+        //raiz
+        private void btnraiz_Click(object sender, EventArgs e)
+        {
+            //var
+            double resultado = 0;
+           double texto = Convert.ToDouble(textBox1.Text);
+            //
+            resultado=Math.Sqrt(texto);
+            lblresult.Text = "=" + resultado.ToString();
+
+        }
 
 
+        //coseno
+        private void btncos_Click(object sender, EventArgs e)
+        {
+            //var
+            double resultado = 0;
+            double texto = Convert.ToDouble(textBox1.Text);
+            //
+            resultado = Math.Cos(texto);
+            lblresult.Text = "=" + resultado.ToString();
 
+        }
+       
+        
+        //seno
+        private void btnsen_Click(object sender, EventArgs e)
+        {
+            //var
+            double resultado = 0;
+            double texto = Convert.ToDouble(textBox1.Text);
+            //
+            resultado = Math.Sin(texto);
+            lblresult.Text = "=" + resultado.ToString();
+        }
+        
+        
+        
+        //memoria
+        private void btnmemorys_Click(object sender, EventArgs e)
+        {
+            //guarda el numero en la memoria
+            memoria = Convert.ToDouble(lblresult.Text);
+        }
 
+        private void btnmemoryc_Click(object sender, EventArgs e)
+        {
+            //elimina el numero de la memoria
+            memoria = 0;
+        }
 
+        private void btnmemorymas_Click(object sender, EventArgs e)
+        {
+            //le suma el contenido de la textbox a la memoria
+            double texto = Convert.ToDouble(textBox1.Text);
+            double resultado = texto + memoria;
+            lblresult.Text = "=" + resultado.ToString();
+        }
+
+        private void btnmemorymenos_Click(object sender, EventArgs e)
+        {
+            //le resta el contenido de la textbox a la memoria
+            double texto = Convert.ToDouble(textBox1.Text);
+            double resultado = texto - memoria;
+            lblresult.Text = "=" + resultado.ToString();
+        }
+        //*****
     }
 }

@@ -16,5 +16,13 @@ namespace WindowsFormsApp4
         {
             InitializeComponent();
         }
+
+        private void btnpulsar_Click(object sender, EventArgs e)
+        {
+            string nombre=txtnombre.Text;
+            string correo = txtcorreo.Text;
+
+            MessageBox.Show( nombre + " " + correo, "Ha quedado registrado como:");
+        }
     }
 }

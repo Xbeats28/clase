@@ -16,10 +16,10 @@ namespace WindowsFormsApp4
         {
             InitializeComponent();
         }
-
+        //para abrir los ejers lo que hago es declarar los forms como variables e iniciarlas(creo)
         private void button1_Click(object sender, EventArgs e)
         {
-            ejer1 s = new ejer1();
+            ejer s = new ejer();
            s.ShowDialog();
 
 
@@ -73,6 +73,12 @@ namespace WindowsFormsApp4
         private void button8_Click(object sender, EventArgs e)
         {
             ejer8 s = new ejer8();
+            s.ShowDialog();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            ejer9 s = new ejer9(); 
             s.ShowDialog();
         }
     }

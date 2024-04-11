@@ -51,7 +51,7 @@ namespace WindowsFormsApp4
             else if (mes.Text == "11") { a = "Noviembre"; }
             else if (mes.Text == "12") { a = "Diciembre"; }
             else { MessageBox.Show("PON UN NUMERO DE MES P**A"); }
-            txtmostrar.Text = day +" "+  a+" " + años;
+            txtmostrar.Text = day +" de "+  a+" del " + años;
         }
 
         private void btnpimpiar_Click(object sender, EventArgs e)

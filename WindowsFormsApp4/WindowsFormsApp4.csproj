@@ -46,14 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\clase\ejer1.cs">
-      <SubType>Form</SubType>
-      <Link>ejer1.cs</Link>
-    </Compile>
-    <Compile Include="..\..\..\clase\ejer1.Designer.cs">
-      <DependentUpon>ejer1.cs</DependentUpon>
-      <Link>ejer1.Designer.cs</Link>
-    </Compile>
     <Compile Include="ejer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +94,12 @@
     <Compile Include="ejer8.Designer.cs">
       <DependentUpon>ejer8.cs</DependentUpon>
     </Compile>
+    <Compile Include="ejer9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejer9.Designer.cs">
+      <DependentUpon>ejer9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,10 +108,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="..\..\..\clase\ejer1.resx">
-      <DependentUpon>ejer1.cs</DependentUpon>
-      <Link>ejer1.resx</Link>
-    </EmbeddedResource>
     <EmbeddedResource Include="ejer.resx">
       <DependentUpon>ejer.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ejer8.resx">
       <DependentUpon>ejer8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejer9.resx">
+      <DependentUpon>ejer9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

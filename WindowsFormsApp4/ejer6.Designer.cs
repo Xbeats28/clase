@@ -28,24 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.faren = new System.Windows.Forms.TextBox();
             this.celsi = new System.Windows.Forms.TextBox();
             this.salir = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(314, 178);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Pasar a Cº";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -81,6 +71,8 @@
             this.faren.Name = "faren";
             this.faren.Size = new System.Drawing.Size(100, 20);
             this.faren.TabIndex = 4;
+            this.faren.TextChanged += new System.EventHandler(this.faren_TextChanged);
+            this.faren.Enter += new System.EventHandler(this.faren_Enter);
             // 
             // celsi
             // 
@@ -88,6 +80,7 @@
             this.celsi.Name = "celsi";
             this.celsi.Size = new System.Drawing.Size(100, 20);
             this.celsi.TabIndex = 5;
+            this.celsi.TextChanged += new System.EventHandler(this.celsi_TextChanged);
             // 
             // salir
             // 
@@ -98,6 +91,16 @@
             this.salir.Text = "salir";
             this.salir.UseVisualStyleBackColor = true;
             this.salir.Click += new System.EventHandler(this.salir_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(314, 178);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Pasar a Cº";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ejer6
             // 
@@ -120,13 +123,12 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox faren;
         private System.Windows.Forms.TextBox celsi;
         private System.Windows.Forms.Button salir;
+        private System.Windows.Forms.Button button1;
     }
 }

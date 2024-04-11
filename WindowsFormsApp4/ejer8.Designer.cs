@@ -257,6 +257,7 @@
             this.btnmemorys.TabIndex = 19;
             this.btnmemorys.Text = "MS";
             this.btnmemorys.UseVisualStyleBackColor = true;
+            this.btnmemorys.Click += new System.EventHandler(this.btnmemorys_Click);
             // 
             // btnmemoryc
             // 
@@ -266,6 +267,7 @@
             this.btnmemoryc.TabIndex = 20;
             this.btnmemoryc.Text = "MC";
             this.btnmemoryc.UseVisualStyleBackColor = true;
+            this.btnmemoryc.Click += new System.EventHandler(this.btnmemoryc_Click);
             // 
             // btnmemorymas
             // 
@@ -275,6 +277,7 @@
             this.btnmemorymas.TabIndex = 21;
             this.btnmemorymas.Text = "M+";
             this.btnmemorymas.UseVisualStyleBackColor = true;
+            this.btnmemorymas.Click += new System.EventHandler(this.btnmemorymas_Click);
             // 
             // btnmemorymenos
             // 
@@ -284,6 +287,7 @@
             this.btnmemorymenos.TabIndex = 22;
             this.btnmemorymenos.Text = "M-";
             this.btnmemorymenos.UseVisualStyleBackColor = true;
+            this.btnmemorymenos.Click += new System.EventHandler(this.btnmemorymenos_Click);
             // 
             // memoryR
             // 
@@ -302,6 +306,7 @@
             this.btnraiz.TabIndex = 24;
             this.btnraiz.Text = "Raiz";
             this.btnraiz.UseVisualStyleBackColor = true;
+            this.btnraiz.Click += new System.EventHandler(this.btnraiz_Click);
             // 
             // btncos
             // 
@@ -311,6 +316,7 @@
             this.btncos.TabIndex = 25;
             this.btncos.Text = "Cos";
             this.btncos.UseVisualStyleBackColor = true;
+            this.btncos.Click += new System.EventHandler(this.btncos_Click);
             // 
             // btnsen
             // 
@@ -320,6 +326,7 @@
             this.btnsen.TabIndex = 26;
             this.btnsen.Text = "Sen";
             this.btnsen.UseVisualStyleBackColor = true;
+            this.btnsen.Click += new System.EventHandler(this.btnsen_Click);
             // 
             // textBox1
             // 
