@@ -1,0 +1,15 @@
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe.config
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.pdb
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.ejer1.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Form1.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Properties.Resources.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.GenerateResource.cache
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.exe
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.pdb
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.ejer2.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Ejer2a.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Ejer2b.resources
