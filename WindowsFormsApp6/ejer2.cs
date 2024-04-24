@@ -16,7 +16,11 @@ namespace WindowsFormsApp6
         {
             InitializeComponent();
         }
-            
+        private void ejer2_Load(object sender, EventArgs e)
+        {
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
+        }
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -35,10 +39,6 @@ namespace WindowsFormsApp6
             Close();
         }
 
-        private void ejer2_Load(object sender, EventArgs e)
-        {
-            radioButton1.Checked = false;
-            radioButton2.Checked = false;
-        }
+      
     }
 }

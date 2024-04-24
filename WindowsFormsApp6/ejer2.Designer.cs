@@ -40,7 +40,7 @@
             this.radioButton1.Location = new System.Drawing.Point(303, 157);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(58, 17);
-            this.radioButton1.TabIndex = 1;
+            this.radioButton1.TabIndex = 10;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "1º GMI";
             this.radioButton1.UseVisualStyleBackColor = true;
@@ -52,7 +52,7 @@
             this.radioButton2.Location = new System.Drawing.Point(303, 189);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(58, 17);
-            this.radioButton2.TabIndex = 2;
+            this.radioButton2.TabIndex = 20;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "2º GMI";
             this.radioButton2.UseVisualStyleBackColor = true;

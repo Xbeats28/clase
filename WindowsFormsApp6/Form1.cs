@@ -28,5 +28,36 @@ namespace WindowsFormsApp6
             ejer2 s = new ejer2();
             s.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ejer3 s = new ejer3();
+            s.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ejer4 s = new ejer4();
+            s.Show();
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ejer5 s = new ejer5();
+            s.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ejer6 s = new ejer6();
+            s.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ejer7 s = new ejer7();
+            s.Show();
+        }
     }
 }
