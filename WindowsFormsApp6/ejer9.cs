@@ -14,16 +14,17 @@ namespace WindowsFormsApp6
     {
         public ejer9()
         {
+           
             InitializeComponent();
         }
-     
-        
+       
+        double precioplatoprinci = 0;
         //genero un evento para cunado el indice de la combobox cambie pase algo
         //hago publico este evento porque lo necesitare mas tarde
         public void comboplatosprinci_SelectedIndexChanged(object sender, EventArgs e)
         {
             //
-            double precioplatoprinci = 0;
+           
             string comida1 = comboplatosprinci.Text;
             //
 
@@ -120,12 +121,12 @@ namespace WindowsFormsApp6
             comboplatosprinci.Items.Add("Cesar");
         }
 
-        
-        
+        double preciosegundo = 0;
+
         public void combosegundoplato_SelectedIndexChanged(object sender, EventArgs e)
         {
             //
-            double preciosegundo = 0;
+          
             string texto2=combosegundoplato.Text;
             //
 
@@ -181,7 +182,7 @@ namespace WindowsFormsApp6
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            lblprecio2.Text = "";
+           
             combosegundoplato.Items.Clear();
             combosegundoplato.Items.Add("Merluza a la plancha");
             combosegundoplato.Items.Add("Lenguado");
@@ -191,7 +192,7 @@ namespace WindowsFormsApp6
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            lblprecio2.Text = "";
+           
             combosegundoplato.Items.Clear();
             combosegundoplato.Items.Add("Milanesa");
             combosegundoplato.Items.Add("Chuleta");
@@ -201,11 +202,100 @@ namespace WindowsFormsApp6
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            lblprecio2.Text = "";
+           
             combosegundoplato.Items.Clear();
             combosegundoplato.Items.Add("Spaguetti Bolognesa");
             combosegundoplato.Items.Add("Macarrones carbonara");
             combosegundoplato.Items.Add("Trofie al pesto");
+        }
+
+        private void radiopostre_CheckedChanged(object sender, EventArgs e)
+        {
+            combopostre.Items.Clear();
+            combopostre.Items.Add("Fruta / Yogurt");
+            combopostre.Items.Add("Brownie Chocolate con helado");
+            combopostre.Items.Add("Tarta de Santiago");
+            combopostre.Items.Add("Tarta semifria de chocolate y queso");
+        }
+
+        private void radiocafe_CheckedChanged(object sender, EventArgs e)
+        {
+            combocafe.Items.Clear();
+            combocafe.Items.Add("Con leche");
+            combocafe.Items.Add("Cortado");
+            combocafe.Items.Add("Solo");
+            combocafe.Items.Add("Descafeinado");
+        }
+        double preciopostre = 0;
+        public void combopostre_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //
+          
+            string texto = combopostre.Text;
+            //
+            if(texto == "Fruta / Yogurt")
+                { preciopostre = 1.5; }
+            if (texto == "Brownie Chocolate con helado")
+            { preciopostre = 3.5; }
+            if (texto == "Tarta de Santiago")
+            { preciopostre = 3.5; }
+            if (texto == "Tarta semifria de chocolate y queso")
+            { preciopostre = 3.5; }
+            label11.Visible = true;
+            lblpreciopostre.Text=Convert.ToString(preciopostre);
+        }
+        double preciocafe = 0;
+        public void combocafe_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //
+           preciocafe = 1;
+            //
+            label8.Visible = true;
+           lblpreciocafe.Text=Convert.ToString(preciocafe);
+        }
+
+
+
+
+        double preciobebida = 0;
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            preciobebida = 1;
+            lblpreciobebida.Text = Convert.ToString(preciobebida);
+        }
+
+      
+        
+        
+        
+        
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            preciobebida = 0.70;
+            lblpreciobebida.Text = Convert.ToString(preciobebida);
+        }
+     
+    
+        
+        
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+             preciobebida = 10;
+            lblpreciobebida.Text = Convert.ToString(preciobebida);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double total = 0;
+            double siniva = 0;
+
+            label12.Visible = true;
+            total = preciobebida + precioplatoprinci + preciosegundo + preciocafe + preciopostre;
+            siniva = total;
+            total = total * 0.1 + total;
+            lblpreciototal.Text = Convert.ToString(total);
+            MessageBox.Show(Convert.ToString(siniva),"Precio sin iva");
+            
         }
     }
 }

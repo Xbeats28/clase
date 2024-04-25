@@ -45,6 +45,28 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.radiocafe = new System.Windows.Forms.RadioButton();
+            this.radiopostre = new System.Windows.Forms.RadioButton();
+            this.combopostre = new System.Windows.Forms.ComboBox();
+            this.combocafe = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.lblpreciocafe = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.lblpreciopostre = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.lblpreciototal = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.lblpreciobebida = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // radiocremas
@@ -243,6 +265,260 @@
             this.radioButton3.UseVisualStyleBackColor = false;
             this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(555, 125);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(155, 25);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Café || Postre";
+            // 
+            // radiocafe
+            // 
+            this.radiocafe.AutoSize = true;
+            this.radiocafe.BackColor = System.Drawing.SystemColors.InfoText;
+            this.radiocafe.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.radiocafe.Location = new System.Drawing.Point(560, 284);
+            this.radiocafe.Name = "radiocafe";
+            this.radiocafe.Size = new System.Drawing.Size(50, 17);
+            this.radiocafe.TabIndex = 17;
+            this.radiocafe.TabStop = true;
+            this.radiocafe.Text = "Carfé";
+            this.radiocafe.UseVisualStyleBackColor = false;
+            this.radiocafe.CheckedChanged += new System.EventHandler(this.radiocafe_CheckedChanged);
+            // 
+            // radiopostre
+            // 
+            this.radiopostre.AutoSize = true;
+            this.radiopostre.BackColor = System.Drawing.SystemColors.InfoText;
+            this.radiopostre.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.radiopostre.Location = new System.Drawing.Point(560, 174);
+            this.radiopostre.Name = "radiopostre";
+            this.radiopostre.Size = new System.Drawing.Size(55, 17);
+            this.radiopostre.TabIndex = 16;
+            this.radiopostre.TabStop = true;
+            this.radiopostre.Text = "Postre";
+            this.radiopostre.UseVisualStyleBackColor = false;
+            this.radiopostre.CheckedChanged += new System.EventHandler(this.radiopostre_CheckedChanged);
+            // 
+            // combopostre
+            // 
+            this.combopostre.FormattingEnabled = true;
+            this.combopostre.Location = new System.Drawing.Point(560, 201);
+            this.combopostre.Name = "combopostre";
+            this.combopostre.Size = new System.Drawing.Size(121, 21);
+            this.combopostre.TabIndex = 19;
+            this.combopostre.SelectedIndexChanged += new System.EventHandler(this.combopostre_SelectedIndexChanged);
+            // 
+            // combocafe
+            // 
+            this.combocafe.FormattingEnabled = true;
+            this.combocafe.Location = new System.Drawing.Point(560, 309);
+            this.combocafe.Name = "combocafe";
+            this.combocafe.Size = new System.Drawing.Size(121, 21);
+            this.combocafe.TabIndex = 20;
+            this.combocafe.SelectedIndexChanged += new System.EventHandler(this.combocafe_SelectedIndexChanged);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label8.Location = new System.Drawing.Point(719, 333);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(25, 25);
+            this.label8.TabIndex = 23;
+            this.label8.Text = "€";
+            this.label8.Visible = false;
+            // 
+            // lblpreciocafe
+            // 
+            this.lblpreciocafe.AutoSize = true;
+            this.lblpreciocafe.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpreciocafe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblpreciocafe.Location = new System.Drawing.Point(659, 333);
+            this.lblpreciocafe.Name = "lblpreciocafe";
+            this.lblpreciocafe.Size = new System.Drawing.Size(0, 25);
+            this.lblpreciocafe.TabIndex = 22;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.Location = new System.Drawing.Point(555, 343);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(86, 25);
+            this.label10.TabIndex = 21;
+            this.label10.Text = "Precio:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label11.Location = new System.Drawing.Point(719, 246);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(25, 25);
+            this.label11.TabIndex = 26;
+            this.label11.Text = "€";
+            this.label11.Visible = false;
+            // 
+            // lblpreciopostre
+            // 
+            this.lblpreciopostre.AutoSize = true;
+            this.lblpreciopostre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpreciopostre.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblpreciopostre.Location = new System.Drawing.Point(659, 246);
+            this.lblpreciopostre.Name = "lblpreciopostre";
+            this.lblpreciopostre.Size = new System.Drawing.Size(0, 25);
+            this.lblpreciopostre.TabIndex = 25;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label13.Location = new System.Drawing.Point(555, 246);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(86, 25);
+            this.label13.TabIndex = 24;
+            this.label13.Text = "Precio:";
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.BackColor = System.Drawing.SystemColors.InfoText;
+            this.radioButton4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.radioButton4.Location = new System.Drawing.Point(548, 82);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(46, 17);
+            this.radioButton4.TabIndex = 29;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Vino";
+            this.radioButton4.UseVisualStyleBackColor = false;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.BackColor = System.Drawing.SystemColors.InfoText;
+            this.radioButton5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.radioButton5.Location = new System.Drawing.Point(548, 59);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(68, 17);
+            this.radioButton5.TabIndex = 28;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "Refresco";
+            this.radioButton5.UseVisualStyleBackColor = false;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.BackColor = System.Drawing.SystemColors.InfoText;
+            this.radioButton6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.radioButton6.Location = new System.Drawing.Point(548, 36);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(50, 17);
+            this.radioButton6.TabIndex = 27;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "Agua";
+            this.radioButton6.UseVisualStyleBackColor = false;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label9.Location = new System.Drawing.Point(543, 8);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(165, 25);
+            this.label9.TabIndex = 30;
+            this.label9.Text = "Plato Principal";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label12.Location = new System.Drawing.Point(241, 343);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(25, 25);
+            this.label12.TabIndex = 33;
+            this.label12.Text = "€";
+            this.label12.Visible = false;
+            // 
+            // lblpreciototal
+            // 
+            this.lblpreciototal.AutoSize = true;
+            this.lblpreciototal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpreciototal.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblpreciototal.Location = new System.Drawing.Point(200, 343);
+            this.lblpreciototal.Name = "lblpreciototal";
+            this.lblpreciototal.Size = new System.Drawing.Size(0, 25);
+            this.lblpreciototal.TabIndex = 32;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label15.Location = new System.Drawing.Point(29, 343);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(146, 25);
+            this.label15.TabIndex = 31;
+            this.label15.Text = "Precio Total:";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(307, 344);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 34;
+            this.button1.Text = "Finalizar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label14.Location = new System.Drawing.Point(773, 82);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(25, 25);
+            this.label14.TabIndex = 37;
+            this.label14.Text = "€";
+            this.label14.Visible = false;
+            // 
+            // lblpreciobebida
+            // 
+            this.lblpreciobebida.AutoSize = true;
+            this.lblpreciobebida.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpreciobebida.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblpreciobebida.Location = new System.Drawing.Point(713, 82);
+            this.lblpreciobebida.Name = "lblpreciobebida";
+            this.lblpreciobebida.Size = new System.Drawing.Size(0, 25);
+            this.lblpreciobebida.TabIndex = 36;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label17.Location = new System.Drawing.Point(609, 82);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(86, 25);
+            this.label17.TabIndex = 35;
+            this.label17.Text = "Precio:";
+            // 
             // ejer9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -250,6 +526,28 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.lblpreciobebida);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.lblpreciototal);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.radioButton4);
+            this.Controls.Add(this.radioButton5);
+            this.Controls.Add(this.radioButton6);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lblpreciopostre);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.lblpreciocafe);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.combocafe);
+            this.Controls.Add(this.combopostre);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.radiocafe);
+            this.Controls.Add(this.radiopostre);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lblprecio2);
             this.Controls.Add(this.label6);
@@ -291,5 +589,27 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.RadioButton radiocafe;
+        private System.Windows.Forms.RadioButton radiopostre;
+        private System.Windows.Forms.ComboBox combopostre;
+        private System.Windows.Forms.ComboBox combocafe;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblpreciocafe;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblpreciopostre;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lblpreciototal;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lblpreciobebida;
+        private System.Windows.Forms.Label label17;
     }
 }
