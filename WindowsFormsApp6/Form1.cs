@@ -59,5 +59,18 @@ namespace WindowsFormsApp6
             ejer7 s = new ejer7();
             s.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            //ejercicio 8
+            a s = new a();
+            s.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            ejer9 s = new ejer9();
+            s.Show();
+        }
     }
 }
