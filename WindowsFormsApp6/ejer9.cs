@@ -91,7 +91,7 @@ namespace WindowsFormsApp6
         private void radiocremas_CheckedChanged(object sender, EventArgs e)
         {
            
-            comboplatosprinci.Text = "";
+           
             comboplatosprinci.Items.Clear();
             comboplatosprinci.Items.Add("Champiñones");
             comboplatosprinci.Items.Add("Puerro");
@@ -102,7 +102,7 @@ namespace WindowsFormsApp6
         private void radioempanadas_CheckedChanged(object sender, EventArgs e)
         {
            
-            comboplatosprinci.Text = "";
+           
             comboplatosprinci.Items.Clear();
             comboplatosprinci.Items.Add("Pulpo");
             comboplatosprinci.Items.Add("Zamburiñas");
@@ -113,7 +113,7 @@ namespace WindowsFormsApp6
         private void radioensaladas_CheckedChanged(object sender, EventArgs e)
         {
           
-            comboplatosprinci.Text = "";
+           
             comboplatosprinci.Items.Clear();
             comboplatosprinci.Items.Add("Romana");
             comboplatosprinci.Items.Add("Primavera");
@@ -176,6 +176,7 @@ namespace WindowsFormsApp6
                 preciosegundo = 6;
             }
             lblprecio2.Text = Convert.ToString(preciosegundo);
+            label4.Visible = true;
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
