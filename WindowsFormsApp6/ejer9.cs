@@ -14,11 +14,13 @@ namespace WindowsFormsApp6
     {
         public ejer9()
         {
-           
+
             InitializeComponent();
         }
-       
+        public static double total = 0;
+     
         double precioplatoprinci = 0;
+    
         //genero un evento para cunado el indice de la combobox cambie pase algo
         //hago publico este evento porque lo necesitare mas tarde
         public void comboplatosprinci_SelectedIndexChanged(object sender, EventArgs e)
@@ -286,7 +288,7 @@ namespace WindowsFormsApp6
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double total = 0;
+           
             double siniva = 0;
 
             label12.Visible = true;
@@ -295,7 +297,22 @@ namespace WindowsFormsApp6
             total = total * 0.1 + total;
             lblpreciototal.Text = Convert.ToString(total);
             MessageBox.Show(Convert.ToString(siniva),"Precio sin iva");
+            textBox1.Visible = true;
+           
+            button2.Visible=true;
+
             
+        }
+
+       private void button2_Click(object sender, EventArgs e)
+        {
+            label18.Visible = true;
+            label16.Visible = true;
+            double a = double.Parse(textBox1.Text);
+            a = a-total;
+            a = Math.Round(a,2);
+            label18.Text=Convert.ToString(a);
+            label19.Visible = true;
         }
     }
 }

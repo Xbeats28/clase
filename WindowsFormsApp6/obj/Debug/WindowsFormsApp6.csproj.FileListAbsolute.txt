@@ -70,3 +70,6 @@ C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp6\obj\Debug\WindowsFormsAp
 C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.pdb
 C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.a.resources
 C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.ejer9.resources
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Iniciacion_9.resources
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.ejer10.resources
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.inicio_10.resources

@@ -69,7 +69,13 @@ namespace WindowsFormsApp6
 
         private void button9_Click(object sender, EventArgs e)
         {
-            ejer9 s = new ejer9();
+            Iniciacion_9 s = new Iniciacion_9();
+            s.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            inicio_10 s = new inicio_10();
             s.Show();
         }
     }

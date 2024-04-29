@@ -52,6 +52,12 @@
     <Compile Include="ejer1.Designer.cs">
       <DependentUpon>ejer1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ejer10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejer10.Designer.cs">
+      <DependentUpon>ejer10.cs</DependentUpon>
+    </Compile>
     <Compile Include="ejer2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,10 +124,25 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Iniciacion 9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iniciacion 9.Designer.cs">
+      <DependentUpon>Iniciacion 9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inicio 10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio 10.Designer.cs">
+      <DependentUpon>inicio 10.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ejer1.resx">
       <DependentUpon>ejer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejer10.resx">
+      <DependentUpon>ejer10.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ejer2.resx">
       <DependentUpon>ejer2.cs</DependentUpon>
@@ -155,6 +176,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iniciacion 9.resx">
+      <DependentUpon>Iniciacion 9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio 10.resx">
+      <DependentUpon>inicio 10.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
