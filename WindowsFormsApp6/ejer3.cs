@@ -19,10 +19,10 @@ namespace WindowsFormsApp6
 
         private void btnconvertir_Click(object sender, EventArgs e)
         {
-            //
+            //Esta variable la utilizare en todo momento(recoge el texto de la textbox)
         double texto=double.Parse(txtmetros.Text);
             double result = 0;
-            //
+            //el programa es simple comprueba cuál de todos cumple la propiedad chcked y dependiendo cual esté realizada el cálculo que deba
             if(milimetros.Checked)
             {
                 result = texto*1000;
