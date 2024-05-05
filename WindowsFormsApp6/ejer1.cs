@@ -86,6 +86,7 @@ namespace WindowsFormsApp6
 
         private void btncancelar_Click(object sender, EventArgs e)
         {
+//para poner todo como al inicio simplemente cambió el checked a flase
             comprobador1.Checked= false;
             comprobador2.Checked = false;
             comprobador3.Checked = false;
