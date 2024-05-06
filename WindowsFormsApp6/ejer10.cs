@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,21 +18,39 @@ namespace WindowsFormsApp6
             InitializeComponent();
         }
         int contador = 0;
+        Boolean aa = true;
+        Boolean b = true;
+        Boolean c = true;
+        Boolean d = true;
+        Boolean ee = true;
+        Boolean f = true;
+        Boolean g = true;
+        Boolean h = true;
+        Boolean i = true;
         private void button1_Click(object sender, EventArgs e)
         {
+           
+
+
             contador++;
-            if(contador  == 3 || contador == 1||contador==5||contador==7 || contador ==9) 
+            //dependiendo de si es par o impar escribe una cosa
+            if ((contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9) && aa ==true ) 
             {
+                aa = false;
                 button1.Text = "X";
                   
             }
-           else if (contador %2==0)
+           else if (contador %2==0 && aa == true)
             {
+                aa = false;
                 button1.Text = "O";
 
             }
-            else if(contador==10)
+            //si el contador llega a 9 se cierra porque se entiende que ha acabado en empate 
+            else if(contador==9)
             {
+                ejer10 s = new ejer10();
+                s.Close();
                 button1.Text = "";
                 button2.Text = "";
                 button3.Text = "";
@@ -42,6 +61,7 @@ namespace WindowsFormsApp6
                 button8.Text = "";
                 button9.Text = "";
 
+                //empezamos la validacion de datos y luego es lo mismo con el resto de botones
                 if(button1.Text=="X"&&button2.Text=="X"&&button3.Text=="X")
                 {
                     MessageBox.Show("X gana", "GANADOR");
@@ -143,13 +163,15 @@ namespace WindowsFormsApp6
         private void button2_Click(object sender, EventArgs e)
         {
             contador++;
-            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9)
+            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9&& b == true)
             {
+                b = false;
                 button2.Text = "X";
 
             }
-            else if (contador % 2 == 0)
+            else if (contador % 2 == 0 && b == true)
             {
+                b = false;
                 button2.Text = "O";
 
             }
@@ -264,13 +286,15 @@ namespace WindowsFormsApp6
         private void button3_Click(object sender, EventArgs e)
         {
             contador++;
-            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9)
+            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9&&c==true)
             {
+                c = false;
                 button3.Text = "X";
 
             }
-            else if (contador % 2 == 0)
+            else if (contador % 2 == 0 && c == true)
             {
+                c = false;
                 button3.Text = "O";
 
             }
@@ -385,13 +409,15 @@ namespace WindowsFormsApp6
         private void button4_Click(object sender, EventArgs e)
         {
             contador++;
-            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9)
+            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9 && d == true)
             {
+                d = false;
                 button4.Text = "X";
 
             }
-            else if (contador % 2 == 0)
+            else if (contador % 2 == 0 && d == true)
             {
+                d = false;
                 button4.Text = "O";
 
             }
@@ -506,13 +532,15 @@ namespace WindowsFormsApp6
         private void button5_Click(object sender, EventArgs e)
         {
             contador++;
-            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9)
+            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9&&ee==true)
             {
+                ee = false;
                 button5.Text = "X";
 
             }
-            else if (contador % 2 == 0)
+            else if (contador % 2 == 0 && ee == true)
             {
+                ee = false;
                 button5.Text = "O";
 
             }
@@ -627,13 +655,15 @@ namespace WindowsFormsApp6
         private void button6_Click(object sender, EventArgs e)
         {
             contador++;
-            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9)
+            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9&& f ==true)
             {
+                f = false;
                 button6.Text = "X";
 
             }
-            else if (contador % 2 == 0)
+            else if (contador % 2 == 0 && f == true)
             {
+                f = false;
                 button6.Text = "O";
 
             }
@@ -748,13 +778,15 @@ namespace WindowsFormsApp6
         private void button7_Click(object sender, EventArgs e)
         {
             contador++;
-            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9)
+            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9 && g == true)
             {
+                g = false;
                 button7.Text = "X";
 
             }
-            else if (contador % 2 == 0)
+            else if (contador % 2 == 0 && g == true)
             {
+                g = false;
                 button7.Text = "O";
 
             }
@@ -869,13 +901,15 @@ namespace WindowsFormsApp6
         private void button8_Click(object sender, EventArgs e)
         {
             contador++;
-            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9)
+            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9&& h ==true)
             {
+                h = false;
                 button8.Text = "X";
 
             }
-            else if (contador % 2 == 0)
+            else if (contador % 2 == 0 && h == true)
             {
+                h = false;
                 button8.Text = "O";
 
             }
@@ -994,13 +1028,15 @@ namespace WindowsFormsApp6
         private void button9_Click(object sender, EventArgs e)
         {
             contador++;
-            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9)
+            if (contador == 3 || contador == 1 || contador == 5 || contador == 7 || contador == 9&& i==true)
             {
+                i = false;
                 button9.Text = "X";
 
             }
-            else if (contador % 2 == 0)
+            else if (contador % 2 == 0 && i == true)
             {
+                i = false;
                 button9.Text = "O";
 
             }

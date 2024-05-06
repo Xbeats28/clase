@@ -26,7 +26,9 @@ namespace WindowsFormsApp6
             {
               
                 array[0] = int.Parse(precio1.Text);
-                decimal cantidad = cantidad1.Value;
+
+//decimal es una variable que recoge el valor del selector de cantidad  y luego convierto a int32 ya que es donde puedo recoger el valor de una variable decimal en int y lo multiplicó por el previo precio ya que es cantidad por precio producto
+             decimal cantidad = cantidad1.Value;
                 array[0] = Convert.ToInt32(cantidad) * array[0];
 
 
@@ -84,6 +86,7 @@ namespace WindowsFormsApp6
 
         private void btncancelar_Click(object sender, EventArgs e)
         {
+//para poner todo como al inicio simplemente cambió el checked a flase
             comprobador1.Checked= false;
             comprobador2.Checked = false;
             comprobador3.Checked = false;
