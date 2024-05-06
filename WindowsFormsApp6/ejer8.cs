@@ -19,6 +19,7 @@ namespace WindowsFormsApp6
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //primero se ponene todos invisbiles y luego el que salga se hace visible
             p1.Visible= false;
             p2.Visible = false;
             p3.Visible = false;

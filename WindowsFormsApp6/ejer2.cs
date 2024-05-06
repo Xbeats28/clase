@@ -27,13 +27,13 @@ namespace WindowsFormsApp6
             listBox1.Items.Clear();
             listBox1.Items.Add("Aplicaciones ofimaticas");
             listBox1.Items.Add("Redes");
-            if (listBox1.SelectedIndex==0)
+            if (listBox1.SelectedIndex==1)
             {
                 Ejer2a s = new Ejer2a();
                 s.Show();
 
             }
-            else if (listBox1.SelectedIndex==1)
+            else if (listBox1.SelectedIndex==0)
             {
                Ejer2b s = new Ejer2b();
                 s.Show();
@@ -68,7 +68,37 @@ namespace WindowsFormsApp6
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            w = Convert.ToString(listBox1.SelectedItem);
+            if(radioButton1.Checked)
+            {
+                
+                if (listBox1.SelectedIndex == 1)
+                {
+                    Ejer2a s = new Ejer2a();
+                    s.Show();
+
+                }
+                else if (listBox1.SelectedIndex == 0)
+                {
+                    Ejer2b s = new Ejer2b();
+                    s.Show();
+                }
+
+            }
+            else if(radioButton2.Checked)
+            {
+
+                if (listBox1.SelectedIndex == 0)
+                {
+                    Ejer2a s = new Ejer2a();
+                    s.Show();
+
+                }
+                else if (listBox1.SelectedIndex == 1)
+                {
+                    Ejer2b s = new Ejer2b();
+                    s.Show();
+                }
+            }
         }
     }
 }
