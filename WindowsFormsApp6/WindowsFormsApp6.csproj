@@ -58,6 +58,12 @@
     <Compile Include="ejer10.Designer.cs">
       <DependentUpon>ejer10.cs</DependentUpon>
     </Compile>
+    <Compile Include="ejer10b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejer10b.Designer.cs">
+      <DependentUpon>ejer10b.cs</DependentUpon>
+    </Compile>
     <Compile Include="ejer2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ejer10.resx">
       <DependentUpon>ejer10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejer10b.resx">
+      <DependentUpon>ejer10b.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ejer2.resx">
       <DependentUpon>ejer2.cs</DependentUpon>

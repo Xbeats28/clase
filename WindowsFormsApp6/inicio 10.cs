@@ -22,5 +22,11 @@ namespace WindowsFormsApp6
             ejer10 s = new ejer10();
             s.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ejer10b s = new ejer10b();
+            s.Show();
+        }
     }
 }
