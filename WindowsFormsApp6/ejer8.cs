@@ -78,7 +78,7 @@ namespace WindowsFormsApp6
             x6.Visible = false;
 
             Random random4 = new Random();
-            int dado5 = random2.Next(1, 6);
+            int dado5 = random4.Next(1, 6);
             if (dado5 == 1) { x1.Visible = true; }
             if (dado5 == 2) { x2.Visible = true; }
             if (dado5 == 3) { x3.Visible = true; }

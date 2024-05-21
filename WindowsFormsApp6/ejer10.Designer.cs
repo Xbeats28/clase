@@ -136,6 +136,7 @@
             this.Controls.Add(this.button1);
             this.Name = "ejer10";
             this.Text = "ejer10";
+         
             this.ResumeLayout(false);
 
         }

@@ -30,7 +30,7 @@ namespace WindowsFormsApp6
         private void button1_Click(object sender, EventArgs e)
         {
            
-
+            
 
          
             //dependiendo de si es par o impar escribe una cosa
@@ -1069,6 +1069,7 @@ namespace WindowsFormsApp6
                 button7.Text = "";
                 button8.Text = "";
                 button9.Text = "";
+                
 
             }
             if (button1.Text == "X" && button2.Text == "X" && button3.Text == "X")
@@ -1166,5 +1167,7 @@ namespace WindowsFormsApp6
             }
 
         }
+
+       
     }
 }

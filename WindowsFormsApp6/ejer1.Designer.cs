@@ -351,6 +351,7 @@
             this.Controls.Add(this.comprobador1);
             this.Name = "ejer1";
             this.Text = "ejer1";
+            this.Load += new System.EventHandler(this.ejer1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cantidad1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cantidad2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cantidad3)).EndInit();

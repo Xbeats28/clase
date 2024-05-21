@@ -48,11 +48,11 @@ namespace WindowsFormsApp6
 
         private void btnmovernoche1_Click(object sender, EventArgs e)
         {
-            
-                //
 
-
+            //
+        
                 string sss = listBox1.SelectedItem.ToString();
+     
 
                 //
                

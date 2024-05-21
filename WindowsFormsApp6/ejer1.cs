@@ -103,5 +103,10 @@ namespace WindowsFormsApp6
             Close();
             
         }
+
+        private void ejer1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

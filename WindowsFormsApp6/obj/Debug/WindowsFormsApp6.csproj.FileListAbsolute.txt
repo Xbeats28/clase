@@ -124,3 +124,4 @@ C:\aaaaaa deberes\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.c
 C:\aaaaaa deberes\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.CoreCompileInputs.cache
 C:\aaaaaa deberes\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.exe
 C:\aaaaaa deberes\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.pdb
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.ejer10b.resources
