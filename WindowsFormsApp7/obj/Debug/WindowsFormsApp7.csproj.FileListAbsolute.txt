@@ -11,3 +11,4 @@ C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\Win
 C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
 C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.contraseña.resources
 C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.admn.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.introduc.resources

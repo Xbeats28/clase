@@ -10,25 +10,15 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp7
 {
-    public partial class admn : Form
+    public partial class buscadoradmn : Form
     {
-        public admn()
+        public buscadoradmn()
         {
             InitializeComponent();
         }
 
-        private void admn_Load(object sender, EventArgs e)
+        private void buscadoradmn_Load(object sender, EventArgs e)
         {
-            contraseña c = new contraseña();
-            c.Close();
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            introduc s = new introduc();
-            s.Show();
-
 
         }
     }

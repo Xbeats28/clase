@@ -52,6 +52,12 @@
     <Compile Include="admn.Designer.cs">
       <DependentUpon>admn.cs</DependentUpon>
     </Compile>
+    <Compile Include="buscadoradmn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buscadoradmn.Designer.cs">
+      <DependentUpon>buscadoradmn.cs</DependentUpon>
+    </Compile>
     <Compile Include="contraseña.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="admn.resx">
       <DependentUpon>admn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscadoradmn.resx">
+      <DependentUpon>buscadoradmn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="contraseña.resx">
       <DependentUpon>contraseña.cs</DependentUpon>
