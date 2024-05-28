@@ -19,8 +19,9 @@ namespace WindowsFormsApp7
 
         private void admn_Load(object sender, EventArgs e)
         {
+            
             contraseña c = new contraseña();
-            c.Close();
+            c.Hide();
 
         }
 
@@ -30,6 +31,12 @@ namespace WindowsFormsApp7
             s.Show();
 
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            buscadoradmn s = new buscadoradmn();
+            s.Show();
         }
     }
 }
