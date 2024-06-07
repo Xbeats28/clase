@@ -1,0 +1,61 @@
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form1.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.contraseña.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.admn.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.introduc.resources
+C:\Users\Alumno\Documents\GitHub\Repositorio\.git\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.buscadoradmn.resources
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.admn.resources
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.buscadoradmn.resources
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.contraseña.resources
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form1.resources
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.introduc.resources
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+D:\AAAAAAA REPOSITIRO\IDK\clase-main\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.admn.resources
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.buscadoradmn.resources
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.contraseña.resources
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form1.resources
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.introduc.resources
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+C:\Users\Alumno\Documents\GitHub\clase\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.borrar.resources
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\bin\Debug\WindowsFormsApp7.exe.config
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\bin\Debug\WindowsFormsApp7.exe
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\bin\Debug\WindowsFormsApp7.pdb
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.admn.resources
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.borrar.resources
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.buscadoradmn.resources
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.contraseña.resources
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.Form1.resources
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.introduc.resources
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.exe
+C:\Users\Alumno\Documents\GitHub\clase\Proyecto Diego Fernandez Lorenzo (i'd win)\obj\Debug\WindowsFormsApp7.pdb
